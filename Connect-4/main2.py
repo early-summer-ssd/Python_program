@@ -42,7 +42,7 @@ class Module:
         self.ValidRow = self.FindFreeRow()
         self.Board[self.ValidRow][self.ValidColumn] = self.ThisPlayer
 
-    def PlayerChoosesColum(self):
+    def PlayerChoosesColum(self):##
         print(f"Player {self.ThisPlayer}'s turn")
         while True:
             self.ColumnNumber = int(input('Enter a valid column number: '))
@@ -96,6 +96,151 @@ class Module:
     def CheckForFullBoard(self):
         self.BlankFound = False
         self.ThisRow = -1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         while True:
             self.ThisColumn = 0
             self.ThisRow += 1
